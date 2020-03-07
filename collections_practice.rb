@@ -25,9 +25,13 @@ def swap_elements(array)
 end
 
 
-array = ["blake", "ashley", "scott"]
-strings = ["hand","feet", "knee", "table"]
 numbers = [11, 4, 7, 8, 9, 100, 134]
+array = ["hand","feet", "knee", "table"]
+
+def swap_elements_from_to(array, index, destination_index)
+  array[index], array[destination_index] = array[destination_index], array[index]
+  array
+end
 
 
 

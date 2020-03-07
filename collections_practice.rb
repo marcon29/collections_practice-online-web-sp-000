@@ -20,16 +20,13 @@ end
 
 
 def swap_elements(array)
-  array.each_with_index do |item, index|
-    item
-  end
+  array[1], array[2] = array[2], array[1]
 end
 
 
 array = ["blake", "ashley", "scott"]
 strings = ["hand","feet", "knee", "table"]
 numbers = [11, 4, 7, 8, 9, 100, 134]
-
 
 
 

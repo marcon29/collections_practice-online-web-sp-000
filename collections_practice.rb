@@ -16,24 +16,15 @@ def sort_array_char_count(strings)
 	strings.sort { |a, b| a.length <=> b.length }
 end
 
-
-
-
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
 	array
 end
 
-
-numbers = [11, 4, 7, 8, 9, 100, 134]
-array = ["hand","feet", "knee", "table"]
-
 def swap_elements_from_to(array, index, destination_index)
-  array[index], array[destination_index] = array[destination_index], array[index]
-  array
+	array[index], array[destination_index] = array[destination_index], array[index]
+	array
 end
-
-
 
 def reverse_array(numbers)
 	numbers.reverse
